@@ -65,7 +65,7 @@ class Customers extends React.Component {
           <Table.Header>
             <Table.Row>
               <Table.HeaderCell />
-              <Table.HeaderCell>Id</Table.HeaderCell>
+              <Table.HeaderCell>ID</Table.HeaderCell>
               <Table.HeaderCell>First Name</Table.HeaderCell>
               <Table.HeaderCell>Last Initial</Table.HeaderCell>
             </Table.Row>
@@ -83,7 +83,6 @@ class Customers extends React.Component {
                   onClick={this.openForm} >
                   <Icon name='user' /> Add Customer
                 </Button>
-                <Button size='small' onClick={this.deleteCustomers} >Delete Selected</Button>
               </Table.HeaderCell>
             </Table.Row>
           </Table.Footer>
