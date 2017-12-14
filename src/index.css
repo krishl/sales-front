@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  font-weight: bold;
+  text-align: center;
+  background: rgba(47, 0, 255, 0.603);
+  box-shadow: 0 0 5px rgba(black, .2);
+  margin-bottom: 10px;
+}
+
+.header_logo {
+  align-self: space-around;
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.customers-page {
+  margin-right: 10px;
+  margin-top: 10px;
+}
