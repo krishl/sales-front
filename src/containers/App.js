@@ -5,6 +5,7 @@ import { Sidebar, Segment, Button, Menu, Icon } from 'semantic-ui-react';
 import Auth from '../components/Auth';
 import Customers from '../components/Customers';
 import Products from '../components/Products';
+import Carts from '../components/Carts';
 import '../index.css';
 
 // import logo from '../solar.svg';
@@ -31,7 +32,7 @@ class App extends Component {
               </Menu.Item>
               <Menu.Item as={Link} to="/customers" name='customers' active={activeItem === 'customers'}
                 onClick={this.handleItemClick}>
-                <Icon name='users' />
+                <Icon name='user' />
                 Customers
               </Menu.Item>
               <Menu.Item as={Link} to="/products" name='skus' active={activeItem === 'skus'}
@@ -65,6 +66,7 @@ class App extends Component {
                   <Route path="/dashboard" component={Dashboard} />
                   <Route path="/customers" component={Customers} />
                   <Route path="/products" component={Products} />
+                  <Route path="/carts" component={Carts} />
                 </div>
               </Switch>
             </Sidebar.Pusher>
