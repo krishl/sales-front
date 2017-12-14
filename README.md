@@ -2,6 +2,8 @@
 
 This is the front-end to a REST API built with React, Redux, Semantic UI, and React Router.
 
+The backend can be found at https://github.com/krishl/sales_api.
+
 ## Installation
 1. Clone or download this repository.
 2. Navigate to the folder in your Terminal 
